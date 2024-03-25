@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+:root {
+  --variable-collection-hover-blue: #1e90ff33;
+  --variable-theme-background: #f7fbff;
+  --variable-main-theme-background: #f7fbffcc;
+  --variable-collection-white: #f8fbff;
+  --s-5: #0c141c1a;
+  --s-3: #0c141c0e;
+  --variable-collection-dark2: #15202b;
+  --variable-collection-green: #7db447;
+  --variable-collection-blue-2: #1e90ff;
+  --variable-collection-black: #000000;
+  --spacing-16: 16px;
+  --spacing-radius-8: 8px;
+  --spacing-size-24: 24px;
+  --spacing-4: 4px;
+  --14-regular-font-family: 'Inter';
+  --14-regular-font-weight: 500;
+  --14-regular-font-size: 14px;
+  --14-regular-font-spacing: 14px;
+  --14-regular-line-height: 24px;
+  --layer-style: #0c141c1a;
+  --spacing-12: 12px;
+  --spacing-8: 8px;
+  --netflix-18-font-weight: 500;
+  --netflix-18-font-size: 18px;
+  --bold-14px-font-weight: 600;
+  --bold-14px-font-size: 14px;
+  --variable-collection-light: #dbe3ea;
+  --themes-black-100: #000000;
+  --themes-red-100: #ff7b7b;
+  --variable-collection-dark: #15202b;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --variable-collection-hover-blue: #1e90ff33;
+    --variable-theme-background: #f7fbff;
+    --variable-main-theme-background: #f7fbffcc;
+    --variable-collection-white: #f8fbff;
+    --s-5: #0c141c1a;
+    --s-3: #0c141c0e;
+    --variable-collection-dark2: #15202b;
+    --variable-collection-green: #7db447;
+    --variable-collection-blue-2: #1e90ff;
+    --variable-collection-black: #000000;
+    --spacing-16: 16px;
+    --spacing-radius-8: 8px;
+    --spacing-size-24: 24px;
+    --spacing-4: 4px;
+    --14-regular-font-family: 'Inter';
+    --14-regular-font-weight: 500;
+    --14-regular-font-size: 14px;
+    --14-regular-font-spacing: 14px;
+    --14-regular-line-height: 24px;
+    --layer-style: #0c141c1a;
+    --netflix-18-font-weight: 500;
+    --netflix-18-font-size: 18px;
+    --variable-collection-light: #dbe3ea;
+    --themes-black-100: #000000;
+    --themes-red-100: #ff7b7b;
+    --variable-collection-dark: #15202b;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --variable-collection-hover-blue: #1e90ff33;
+    --variable-theme-background: #111922;
+    --variable-main-theme-background: #15202b;
+    --variable-collection-white: #111922;
+    --s-5: #0c141c1a;
+    --s-3: #0c141c0e;
+    --variable-collection-dark: #ffffff;
+    --variable-collection-dark2: #dbe3ea;
+    --variable-collection-green: #7db447;
+    --variable-collection-blue-2: #1e90ff;
+    --variable-collection-black: #ffffff;
+    --spacing-16: 16px;
+    --spacing-radius-8: 8px;
+    --spacing-size-24: 24px;
+    --spacing-4: 4px;
+    --14-regular-font-family: 'Inter';
+    --14-regular-font-weight: 500;
+    --14-regular-font-size: 14px;
+    --14-regular-font-spacing: 14px;
+    --14-regular-line-height: 24px;
+    --layer-style: #0c141c1a;
+    --netflix-18-font-weight: 500;
+    --netflix-18-font-size: 18px;
+    --variable-collection-light: #15202b;
+    --themes-black-100: #ffffff;
+    --themes-red-100: #ff7b7b;
+  }
+}
+span {
+  color: var(--variable-collection-black);
+}
+
+[color-scheme='light'] {
+  --variable-collection-hover-blue: #1e90ff33;
+  --variable-theme-background: #f7fbff;
+  --variable-main-theme-background: #f7fbffcc;
+  --variable-collection-white: #f8fbff;
+  --s-5: #0c141c1a;
+  --s-3: #0c141c0e;
+  --variable-collection-dark2: #15202b;
+  --variable-collection-green: #7db447;
+  --variable-collection-blue-2: #1e90ff;
+  --variable-collection-black: #000000;
+  --spacing-16: 16px;
+  --spacing-radius-8: 8px;
+  --spacing-size-24: 24px;
+  --spacing-4: 4px;
+  --14-regular-font-family: 'Inter';
+  --14-regular-font-weight: 500;
+  --14-regular-font-size: 14px;
+  --14-regular-font-spacing: 14px;
+  --14-regular-line-height: 24px;
+  --layer-style: #0c141c1a;
+  --netflix-18-font-weight: 500;
+  --netflix-18-font-size: 18px;
+  --variable-collection-light: #dbe3ea;
+  --themes-black-100: #000000;
+  --themes-red-100: #ff7b7b;
+  --variable-collection-dark: #15202b;
+}
+[color-scheme='dark'] {
+  --variable-collection-hover-blue: #1e90ff33;
+  --variable-theme-background: #111922;
+  --variable-main-theme-background: #15202b;
+  --variable-collection-white: #111922;
+  --s-5: #0c141c1a;
+  --s-3: #0c141c0e;
+  --variable-collection-dark: #ffffff;
+  --variable-collection-dark2: #dbe3ea;
+  --variable-collection-green: #7db447;
+  --variable-collection-blue-2: #1e90ff;
+  --variable-collection-black: #ffffff;
+  --spacing-16: 16px;
+  --spacing-radius-8: 8px;
+  --spacing-size-24: 24px;
+  --spacing-4: 4px;
+  --14-regular-font-family: 'Inter';
+  --14-regular-font-weight: 500;
+  --14-regular-font-size: 14px;
+  --14-regular-font-spacing: 14px;
+  --14-regular-line-height: 24px;
+  --layer-style: #0c141c1a;
+  --netflix-18-font-weight: 500;
+  --netflix-18-font-size: 18px;
+  --variable-collection-light: #15202b;
+  --themes-black-100: #ffffff;
+  --themes-red-100: #ff7b7b;
+}

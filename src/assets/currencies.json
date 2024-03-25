@@ -1,0 +1,257 @@
+[
+  {
+    "code": "EUR",
+    "name": "Euro",
+    "symbol": "€"
+  },
+  {
+    "code": "USD",
+    "name": "US Dollar",
+    "symbol": "$"
+  },
+  {
+    "code": "GBP",
+    "name": "British Pound",
+    "symbol": "£"
+  },
+  {
+    "code": "CHF",
+    "name": "Swiss Franc",
+    "symbol": "CHF"
+  },
+  {
+    "code": "CAD",
+    "name": "Canadian Dollar",
+    "symbol": "C$"
+  },
+  {
+    "code": "AUD",
+    "name": "Australian Dollar",
+    "symbol": "AU$"
+  },
+  {
+    "code": "AED",
+    "name": "United Arab Emirates Dirham",
+    "symbol": "د.إ"
+  },
+  {
+    "code": "ARS",
+    "name": "Argentine Peso",
+    "symbol": "ARS"
+  },
+  {
+    "code": "BGN",
+    "name": "Bulgarian Lev",
+    "symbol": "лв"
+  },
+  {
+    "code": "BHD",
+    "name": "Bahraini Dinar",
+    "symbol": ".د.ب"
+  },
+  {
+    "code": "BRL",
+    "name": "Brazilian Real",
+    "symbol": "R$"
+  },
+  {
+    "code": "CLP",
+    "name": "Chilean Peso",
+    "symbol": "CLP$"
+  },
+  {
+    "code": "CNY",
+    "name": "Chinese Yuan",
+    "symbol": "¥"
+  },
+  {
+    "code": "COP",
+    "name": "Colombian Peso",
+    "symbol": "COL$"
+  },
+  {
+    "code": "CVE",
+    "name": "Cape Verdean Escudo",
+    "symbol": "Esc"
+  },
+  {
+    "code": "CZK",
+    "name": "Czech Koruna",
+    "symbol": "Kč"
+  },
+  {
+    "code": "DKK",
+    "name": "Danish Krone",
+    "symbol": "DKK"
+  },
+  {
+    "code": "DOP",
+    "name": "Dominican Peso",
+    "symbol": "RD$"
+  },
+  {
+    "code": "EGP",
+    "name": "Egyptian Pound",
+    "symbol": "ج.م"
+  },
+  {
+    "code": "FJD",
+    "name": "Fijian Dollar",
+    "symbol": "FJ$"
+  },
+  {
+    "code": "HKD",
+    "name": "Hong Kong Dollar",
+    "symbol": "HK$"
+  },
+  {
+    "code": "HUF",
+    "name": "Hungarian Forint",
+    "symbol": "Ft"
+  },
+  {
+    "code": "IDR",
+    "name": "Indonesian Rupiah",
+    "symbol": "Rp"
+  },
+  {
+    "code": "ILS",
+    "name": "Israeli New Shekel",
+    "symbol": "₪"
+  },
+  {
+    "code": "INR",
+    "name": "Indian Rupee",
+    "symbol": "₹"
+  },
+  {
+    "code": "ISK",
+    "name": "Icelandic Króna",
+    "symbol": "Íkr"
+  },
+  {
+    "code": "JMD",
+    "name": "Jamaican Dollar",
+    "symbol": "J$"
+  },
+  {
+    "code": "JOD",
+    "name": "Jordanian Dinar",
+    "symbol": "JD"
+  },
+  {
+    "code": "JPY",
+    "name": "Japanese Yen",
+    "symbol": "¥"
+  },
+  {
+    "code": "KRW",
+    "name": "South Korean Won",
+    "symbol": "₩"
+  },
+  {
+    "code": "KWD",
+    "name": "Kuwaiti Dinar",
+    "symbol": "د.ك"
+  },
+  {
+    "code": "MDL",
+    "name": "Moldovan Leu",
+    "symbol": "L"
+  },
+  {
+    "code": "MXN",
+    "name": "Mexican Peso",
+    "symbol": "Mex$"
+  },
+  {
+    "code": "MYR",
+    "name": "Malaysian Ringgit",
+    "symbol": "RM"
+  },
+  {
+    "code": "NAD",
+    "name": "Namibian Dollar",
+    "symbol": "N$"
+  },
+  {
+    "code": "NOK",
+    "name": "Norwegian Krone",
+    "symbol": "NOK"
+  },
+  {
+    "code": "NZD",
+    "name": "New Zealand Dollar",
+    "symbol": "NZ$"
+  },
+  {
+    "code": "OMR",
+    "name": "Omani Rial",
+    "symbol": "ر.ع."
+  },
+  {
+    "code": "PLN",
+    "name": "Polish Zloty",
+    "symbol": "zł"
+  },
+  {
+    "code": "QAR",
+    "name": "Qatari Rial",
+    "symbol": "ر.ق"
+  },
+  {
+    "code": "RON",
+    "name": "Romanian Leu",
+    "symbol": "lei"
+  },
+  {
+    "code": "RUB",
+    "name": "Russian Ruble",
+    "symbol": "руб"
+  },
+  {
+    "code": "SAR",
+    "name": "Saudi Riyal",
+    "symbol": "﷼"
+  },
+  {
+    "code": "SEK",
+    "name": "Swedish Krona",
+    "symbol": "kr"
+  },
+  {
+    "code": "SGD",
+    "name": "Singapore Dollar",
+    "symbol": "S$"
+  },
+  {
+    "code": "THB",
+    "name": "Thai Baht",
+    "symbol": "฿"
+  },
+  {
+    "code": "TND",
+    "name": "Tunisian Dinar",
+    "symbol": "د.ت"
+  },
+  {
+    "code": "TRY",
+    "name": "Turkish Lira",
+    "symbol": "₺"
+  },
+  {
+    "code": "TWD",
+    "name": "New Taiwan Dollar",
+    "symbol": "NT$"
+  },
+  {
+    "code": "UAH",
+    "name": "Ukrainian Hryvnia",
+    "symbol": "₴"
+  },
+  {
+    "code": "ZAR",
+    "name": "South African Rand",
+    "symbol": "R"
+  }
+]

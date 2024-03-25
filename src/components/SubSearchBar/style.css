@@ -1,0 +1,32 @@
+@-webkit-keyframes Rotating {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 180deg;
+  }
+}
+@keyframes Rotating {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 180deg;
+  }
+}
+
+.compass {
+  animation: none;
+  -webkit-animation: none;
+}
+
+.compass.loading {
+  animation: Rotating;
+  -webkit-animation: Rotating;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}

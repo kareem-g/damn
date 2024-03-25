@@ -1,0 +1,19 @@
+.rs-picker {
+  visibility: hidden;
+}
+.rs-btn.rs-btn-primary.rs-btn-sm {
+  background-color: #3498ff;
+}
+.rs-calendar-table-cell.rs-calendar-table-cell-disabled {
+  color: #c5c6c7;
+}
+.rs-calendar-table-cell-content.blue {
+  color: red;
+}
+.rs-calendar-table-cell-content.blue span {
+  color: red;
+}
+
+.datePicker div.rs-calendar-table-cell.rs-calendar-table-cell-disabled {
+  color: black;
+}
